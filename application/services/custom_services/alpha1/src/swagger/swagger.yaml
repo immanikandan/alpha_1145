@@ -13,7 +13,7 @@ info:
       name: Apache 2.0
       url: https://www.apache.org/licenses/LICENSE-2.0.html
 servers:
-   - url: http://localhost:8006
+   - url: http://localhost:8005
      description: alpha1
 tags:
 - name: email
@@ -157,5 +157,8 @@ components:
                type: "string"
                description: Description
             enter_name:
+               type: "string"
+               description: Description
+            test:
                type: "string"
                description: Description
