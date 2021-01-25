@@ -16,18 +16,18 @@ servers:
    - url: http://localhost:8005
      description: alpha1
 tags:
-- name: email
+- name: zee
 paths:
-   "/email":
+   "/zee":
       put:
          tags:
-         -  email
+         -  zee
          description: GpUpdate
          requestBody:
             content:
                application/json:
                   schema:
-                     $ref: "#/components/schemas/email"
+                     $ref: "#/components/schemas/zee"
          responses:
             200:
                description: Success
@@ -39,13 +39,13 @@ paths:
                description: Internal Server Error
       post:
          tags:
-         -  email
+         -  zee
          description: GpCreate
          requestBody:
             content:
                application/json:
                   schema:
-                     $ref: "#/components/schemas/email"
+                     $ref: "#/components/schemas/zee"
          responses:
             200:
                description: Success
@@ -57,7 +57,7 @@ paths:
                description: Internal Server Error
       get:
          tags:
-         -  email
+         -  zee
          description: GpGetAllValues
          responses:
             200:
@@ -68,10 +68,10 @@ paths:
                description: Not Found
             500:
                description: Internal Server Error
-   "/email/{id}":
+   "/zee/{id}":
       delete:
          tags:
-         -  email
+         -  zee
          description: GpDelete
          parameters:
          -  in: "path"
@@ -91,7 +91,7 @@ paths:
                description: Internal Server Error
       get:
          tags:
-         -  email
+         -  zee
          description: GpGetNounById
          parameters:
          -  in: "path"
@@ -109,10 +109,10 @@ paths:
                description: Not Found
             500:
                description: Internal Server Error
-   "/email/get/search":
+   "/zee/get/search":
       get:
          tags:
-         -  email
+         -  zee
          description: GpSearch
          responses:
             200:
@@ -123,16 +123,16 @@ paths:
                description: Not Found
             500:
                description: Internal Server Error
-   "/email/get/update":
+   "/zee/get/update":
       put:
          tags:
-         -  email
+         -  zee
          description: GpSearchForUpdate
          requestBody:
             content:
                application/json:
                   schema:
-                     $ref: "#/components/schemas/email"
+                     $ref: "#/components/schemas/zee"
          responses:
             200:
                description: Success
@@ -144,21 +144,12 @@ paths:
                description: Internal Server Error
 components:
    schemas:
-      email:
+      zee:
          type: object
          properties:
-            name:
+            titile:
                type: "string"
                description: Description
-            email:
-               type: "string"
-               description: Description
-            phone_no:
-               type: "string"
-               description: Description
-            enter_name:
-               type: "string"
-               description: Description
-            test:
+            description:
                type: "string"
                description: Description

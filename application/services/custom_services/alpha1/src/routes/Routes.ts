@@ -1,9 +1,9 @@
 import { Request, Response, NextFunction } from "express";
-import { emailController } from '../controller/emailController';
+import { zeeController } from '../controller/zeeController';
 
 
 export class Routes {
-    private email: emailController = new emailController();
+    private zee: zeeController = new zeeController();
     
     public routes(app): void {
           app.route('/health/entity-service').get((req: Request, res: Response) => {
@@ -11,13 +11,13 @@ export class Routes {
                 status: 'up'
             })
         })
-        app.route('/email').put(this.email.GpUpdate);
-app.route('/email/:id').delete(this.email.GpDelete);
-app.route('/email/:id').get(this.email.GpGetNounById);
-app.route('/email').post(this.email.GpCreate);
-app.route('/email/get/search').get(this.email.GpSearch);
-app.route('/email').get(this.email.GpGetAllValues);
-app.route('/email/get/update').put(this.email.GpSearchForUpdate);
+        app.route('/zee').put(this.zee.GpUpdate);
+app.route('/zee/:id').delete(this.zee.GpDelete);
+app.route('/zee/:id').get(this.zee.GpGetNounById);
+app.route('/zee').post(this.zee.GpCreate);
+app.route('/zee/get/search').get(this.zee.GpSearch);
+app.route('/zee').get(this.zee.GpGetAllValues);
+app.route('/zee/get/update').put(this.zee.GpSearchForUpdate);
      }
 
 }

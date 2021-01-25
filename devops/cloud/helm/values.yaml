@@ -54,6 +54,11 @@ service:
     type: NodePort
     port: 8080
     targetPort: 8080
+  alpha1: 
+    name: alpha1
+    type: NodePort
+    port: 8005
+    targetPort: 8005
 
 
 deployment:
@@ -80,6 +85,9 @@ deployment:
   desktop:
      name: desktop
      image: geppettotest/alpha-desktop:1.0
+  alpha1: 
+    name: alpha1
+    image: geppettotest/alpha-alpha1:1.0
 
   camundapod:
      name: camundapod
