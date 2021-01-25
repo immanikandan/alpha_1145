@@ -69,9 +69,19 @@ services:
       - camundaservice
       - authproxy
       - securitymanager
+      - alpha1
 
 
 
+  alpha1: 
+    build: ../../../application/services/custom_services/alpha1
+    image: alpha1-1145
+    container_name: alpha1-1145
+    ports: 
+      - 8005:8005
+    env_file: .env
+    depends_on:
+      - mongo
 
 
 volumes:
