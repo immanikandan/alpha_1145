@@ -153,3 +153,6 @@ components:
             description:
                type: "string"
                description: Description
+            name:
+               type: "string"
+               description: Description
