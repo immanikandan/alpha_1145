@@ -13,7 +13,7 @@ info:
       name: Apache 2.0
       url: https://www.apache.org/licenses/LICENSE-2.0.html
 servers:
-   - url: http://localhost:8007
+   - url: http://localhost:8005
      description: alpha1
 tags:
 - name: zee
@@ -154,5 +154,8 @@ components:
                type: "string"
                description: Description
             name:
+               type: "string"
+               description: Description
+            back:
                type: "string"
                description: Description

@@ -78,7 +78,7 @@ services:
     image: alpha1-1145
     container_name: alpha1-1145
     ports: 
-      - 8007:8007
+      - 8005:8005
     env_file: .env
     depends_on:
       - mongo
