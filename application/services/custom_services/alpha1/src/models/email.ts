@@ -6,7 +6,8 @@ const Schema = mongoose.Schema;
 export const emailSchema = new Schema({
    name: String,
    email: String,
-   phone_no: String
+   phone_no: String,
+   enter_name: String
 })
 
 const emailModel = mongoose.model('email', emailSchema, 'email');
