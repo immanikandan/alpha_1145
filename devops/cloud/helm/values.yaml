@@ -57,8 +57,8 @@ service:
   alpha1: 
     name: alpha1
     type: NodePort
-    port: 8005
-    targetPort: 8005
+    port: 8006
+    targetPort: 8006
 
 
 deployment:

@@ -19,24 +19,24 @@
       <output id="OutputClause_0vdltyr" label="developer" name="Developer" typeRef="string" />
       <output id="OutputClause_16m831c" label="user" name="Standard User" typeRef="string" />
       <output id="OutputClause_06hgt34" label="guest" name="Guest" typeRef="string" />
-      <rule id="DecisionRule_130784">
-        <inputEntry id="UnaryTests_861823">
+      <rule id="DecisionRule_117367">
+        <inputEntry id="UnaryTests_548588">
           <text>"home"</text>
         </inputEntry>
-        <inputEntry id="UnaryTests_962293">
+        <inputEntry id="UnaryTests_137546">
           <text>"Screen"</text>
         </inputEntry>
-        <outputEntry id="LiteralExpression_612699">
+        <outputEntry id="LiteralExpression_250443">
           <text>
 
           </text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_255938">
+        <outputEntry id="LiteralExpression_766773">
           <text>
 
           </text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_119759">
+        <outputEntry id="LiteralExpression_545802">
           <text>
 
           </text>
@@ -48,31 +48,31 @@
         </outputEntry>
       </rule>
        
-<rule id="DecisionRule_606844">
-        <inputEntry id="UnaryTests_476820">
+<rule id="DecisionRule_233549">
+        <inputEntry id="UnaryTests_530027">
           <text>"0"</text>
         </inputEntry>
-        <inputEntry id="UnaryTests_699734">
+        <inputEntry id="UnaryTests_474522">
           <text>"Screen"</text>
         </inputEntry>
-        <outputEntry id="LiteralExpression_025518">
+        <outputEntry id="LiteralExpression_444153">
           <text>
-            [{"screen":"home","DecisionRuleId":"130784","UnaryTestsId":"861823","UnaryTests2Id":"962293","LiteralExpressionId":"612699","LiteralExpression2Id":"255938","LiteralExpression3Id":"119759"}]
+            [{"screen":"home","DecisionRuleId":"117367","UnaryTestsId":"548588","UnaryTests2Id":"137546","LiteralExpressionId":"250443","LiteralExpression2Id":"766773","LiteralExpression3Id":"545802"}]
           </text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_467893">
+        <outputEntry id="LiteralExpression_622593">
           <text>
-             [{"screen":"home","DecisionRuleId":"130784","UnaryTestsId":"861823","UnaryTests2Id":"962293","LiteralExpressionId":"612699","LiteralExpression2Id":"255938","LiteralExpression3Id":"119759"}]
+             [{"screen":"home","DecisionRuleId":"117367","UnaryTestsId":"548588","UnaryTests2Id":"137546","LiteralExpressionId":"250443","LiteralExpression2Id":"766773","LiteralExpression3Id":"545802"}]
           </text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_586203">
+        <outputEntry id="LiteralExpression_232959">
           <text>
-              [{"screen":"home","DecisionRuleId":"130784","UnaryTestsId":"861823","UnaryTests2Id":"962293","LiteralExpressionId":"612699","LiteralExpression2Id":"255938","LiteralExpression3Id":"119759"}]
+              [{"screen":"home","DecisionRuleId":"117367","UnaryTestsId":"548588","UnaryTests2Id":"137546","LiteralExpressionId":"250443","LiteralExpression2Id":"766773","LiteralExpression3Id":"545802"}]
           </text>
         </outputEntry>
-        <outputEntry id="LiteralExpression_728687">
+        <outputEntry id="LiteralExpression_620406">
           <text>
-              [{"screen":"home","DecisionRuleId":"130784","UnaryTestsId":"861823","UnaryTests2Id":"962293","LiteralExpressionId":"612699","LiteralExpression2Id":"255938","LiteralExpression3Id":"119759"}]
+              [{"screen":"home","DecisionRuleId":"117367","UnaryTestsId":"548588","UnaryTests2Id":"137546","LiteralExpressionId":"250443","LiteralExpression2Id":"766773","LiteralExpression3Id":"545802"}]
           </text>
         </outputEntry>
       </rule>
